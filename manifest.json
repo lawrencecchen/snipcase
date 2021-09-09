@@ -1,0 +1,14 @@
+{
+  "name": "Snipcase",
+  "description": "Screenshot utility to showcase websites.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Snipcase this website."
+  },
+  "permissions": ["background", "debugger", "contextMenus", "storage", "tabs"]
+}
